@@ -1,4 +1,4 @@
-# AmesQuant: House Price Prediction Engine
+# House Price Prediction Engine
 
 A machine learning project designed to predict residential property sale prices in Ames, Iowa. This project utilizes the **Ames Housing Dataset** and implements a comprehensive pipeline including data cleaning, advanced feature engineering, outlier detection, and regression modeling.
 
