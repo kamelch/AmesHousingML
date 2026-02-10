@@ -67,8 +67,3 @@ The solution follows a rigorous data science workflow:
 | `documentation.txt` | Detailed description of all dataset columns. |
 | `predictions-*.csv` | Model output files containing price predictions. |
 
----
-
-## ⚠️ Disclaimer
-
-This project is based on the Ames Housing dataset and is intended for educational and research purposes in the field of Real Estate valuation and Machine Learning.
