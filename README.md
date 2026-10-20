@@ -27,7 +27,7 @@ The solution follows a rigorous data science workflow:
 
 ### 4. Modeling
 * **Algorithm:** Uses **Ridge Regression** (Linear Regression with L2 Regularization) to handle multicollinearity among features.
-* **Iterations:** The project likely evolves through multiple complexity levels, evidenced by output files:
+* **Iterations:** The notebook compares three model variants and exports their predictions separately:
     * `predictions-simple-model.csv`
     * `predictions-intermediate-model.csv`
     * `predictions-complex-model.csv`
@@ -47,11 +47,13 @@ The solution follows a rigorous data science workflow:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/ames-quant.git](https://github.com/yourusername/ames-quant.git)
+    git clone https://github.com/kamelch/AmesHousingML.git
+    cd AmesHousingML
     ```
 2.  **Install requirements:**
     ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn
+    python -m pip install -r requirements.txt
+    python -m jupyterlab
     ```
 3.  **Run the Notebook:**
     Open `house-prices-solution.ipynb` in Jupyter Notebook or JupyterLab to execute the analysis pipeline.
@@ -67,3 +69,19 @@ The solution follows a rigorous data science workflow:
 | `documentation.txt` | Detailed description of all dataset columns. |
 | `predictions-*.csv` | Model output files containing price predictions. |
 
+
+## Reproducing the notebook
+
+Launch JupyterLab from the repository root so relative CSV paths resolve correctly.
+The notebook records a Python 3.8.5 kernel. `requirements.txt` provides compatibility
+bounds for its older scientific Python APIs; use a Python 3.10 environment for this
+setup. These bounds are not a lockfile or a claim of an end-to-end reproduction.
+
+`house-prices-test.csv` contains prediction inputs, and `predictions-example.csv`
+provides the output schema. The simple, intermediate, and complex prediction CSVs
+are separate model results, not backup copies. Running the final cells overwrites
+those tracked results; inspect the diff before committing them.
+
+Dataset attribution is in [source.txt](source.txt), with column descriptions in
+[documentation.txt](documentation.txt). See [CONTRIBUTING.md](CONTRIBUTING.md)
+for repository and commit conventions.
