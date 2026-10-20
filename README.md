@@ -1,4 +1,4 @@
-# House Price Prediction Engine
+# Ames House Price Prediction
 
 A machine learning project designed to predict residential property sale prices in Ames, Iowa. This project utilizes the **Ames Housing Dataset** and implements a comprehensive pipeline including data cleaning, advanced feature engineering, outlier detection, and regression modeling.
 
@@ -47,7 +47,7 @@ The solution follows a rigorous data science workflow:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/kamelch/AmesHousingML.git
+    git clone https://github.com/kamelch/ames-house-price-prediction.git
     cd AmesHousingML
     ```
 2.  **Install requirements:**
@@ -85,3 +85,11 @@ those tracked results; inspect the diff before committing them.
 Dataset attribution is in [source.txt](source.txt), with column descriptions in
 [documentation.txt](documentation.txt). See [CONTRIBUTING.md](CONTRIBUTING.md)
 for repository and commit conventions.
+
+## Repository purpose and workflow
+
+Notebook-based Ames housing analysis and ridge-regression price prediction.
+
+Canonical repository: https://github.com/kamelch/ames-house-price-prediction
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for commit, branch, validation, and generated-file conventions.
