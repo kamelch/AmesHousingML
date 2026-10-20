@@ -48,7 +48,7 @@ The solution follows a rigorous data science workflow:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/kamelch/ames-house-price-prediction.git
-    cd AmesHousingML
+    cd ames-house-price-prediction
     ```
 2.  **Install requirements:**
     ```bash
